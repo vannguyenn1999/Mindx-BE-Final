@@ -51,7 +51,7 @@ export const createTeacher = async (req, res) => {
     if (existingUser) {
       return res.status(400).json({ error: "Email này đã tồn tại !" });
     }
-    console.log("req.file" , req.file)
+    // console.log("req.file" , req.file)
     const newUser = new UserModel({
       image: req.file ? req.file.path : null,
       imagePublicId: req.file ? req.file.filename : null,
