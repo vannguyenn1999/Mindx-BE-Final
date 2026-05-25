@@ -2,11 +2,12 @@ import { v2 as cloudinary } from "cloudinary";
 import { CloudinaryStorage } from "multer-storage-cloudinary";
 import multer from "multer";
 
+
 // 1. Cấu hình SDK
 cloudinary.config({
-  cloud_name: "dinhquanghuy",
-  api_key: "713732583835668",
-  api_secret: "9n2l8sXo7m1a3e5ZtqjK8b9vVg",
+  cloud_name: "dl1k0vama",
+  api_key: "292772891354623",
+  api_secret: "4u5HpLVFHcMXiLR6Bdpqy3z87-8",
 });
 
 // 2. Cấu hình Storage để upload trực tiếp lên Cloudinary

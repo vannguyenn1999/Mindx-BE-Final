@@ -28,15 +28,15 @@ const teacherSchema = new mongoose.Schema(
     },
     startDate: {
       type: Date,
-      required: true,
+      required: false,
     },
     endDate: {
       type: Date,
-      required: true,
+      required: false,
     },
     isActive: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     isDeleted: {
       type: Boolean,
